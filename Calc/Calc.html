@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CALCULATOR</title>
+    <link type="text/css" rel="stylesheet" href="Calc.css"/>
+   
+</head>
+<body>
+<h2><u>CALCULATOR</u></h2>
+<div id="container">
+    <div class = "Row">
+        <input type="text" class="txt" name="fname" readonly id="display">
+    </div>
+    <div class="table">
+    <div class = "Row">
+                <button id="b" class = "Box btn" onclick="erase()">C</button>
+                <button id="a" class = "Box btn1" onclick="del()">Del</button>
+    </div>
+    <div class = "Row">
+                <button id="b1" class = "Box" onclick="pop(this)">1</button>
+                <button id="b2" class = "Box" onclick="pop(this)">2</button>
+                <button id="b3" class = "Box" onclick="pop(this)">3</button>  
+                <button id="b3" class = "Box" onclick="pop(this)">+</button> 
+    </div>
+    <div class = "Row">
+                <button id="b1" class = "Box" onclick="pop(this)">4</button>
+                <button id="b2" class = "Box" onclick="pop(this)">5</button>
+                <button id="b3" class = "Box" onclick="pop(this)">6</button>
+                <button id="b3" class = "Box" onclick="pop(this)">-</button>   
+    </div>
+    <div class = "Row">
+                <button id="b1" class = "Box" onclick="pop(this)">7</button>
+                <button id="b2" class = "Box" onclick="pop(this)">8</button>
+                <button id="b3" class = "Box" onclick="pop(this)">9</button>
+                <button id="b3" class = "Box" onclick="pop(this)">*</button>   
+    </div>
+    <div class = "Row">
+                <button id="b1" class = "Box" onclick="pop(this)">0</button>
+                <button id="b2" class = "Box" onclick="pop(this)">.</button>
+                <button id="b3" class = "Box" onclick="compute()">=</button>
+                <button id="b3" class = "Box" onclick="pop(this)">/</button>   
+    </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="Calculator.js"></script>
+</html>
